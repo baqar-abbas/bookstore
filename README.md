@@ -30,7 +30,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 math-magician <a name="about-project"></a>
+# 📖 bookstore <a name="about-project"></a>
 
 **bookstore** is a simple Project built through react npx create-react-app. User can interact by Adding New Books to the Bookstore. In future versions there is going to complete website version of Bookstore Project will be developed using react components and redux state management tool. 
 
