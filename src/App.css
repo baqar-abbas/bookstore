@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .nav-bar {
   background-color: #2e3840;
   position: fixed;
@@ -16,6 +17,7 @@
   gap: 3rem;
   padding-left: 5rem;
 }
+
 .nav-bar ul {
   display: flex;
   align-items: center;
@@ -57,9 +59,8 @@ main {
   padding: 5px 4rem;
 }
 
-
 .form-wrap {
- width: 100%;
+  width: 100%;
 }
 
 .form-container {
@@ -71,6 +72,7 @@ main {
   height: 3rem;
   margin-left: 5rem;
 }
+
 .author {
   width: 12rem;
   height: 3rem;
@@ -82,7 +84,7 @@ main {
   position: absolute;
   width: 8rem;
   height: 3rem;
-  background-color: #009FBD;
+  background-color: #009fbd;
   color: beige;
 }
 

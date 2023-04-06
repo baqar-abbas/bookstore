@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Books from './Books';
 
 function Home() {
@@ -6,7 +6,7 @@ function Home() {
     <div>
       <Books />
     </div>
-  )
+  );
 }
 
 export default Home;

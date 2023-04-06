@@ -15,15 +15,16 @@ const BookInput = ({ addNewBook }) => {
   return (
     <div className="form-wrap">
       <form onSubmit={handleSubmit} className="form-container">
-        <label htmlFor="title">Add New Book
-        <input
-          className="title"
-          id="title"
-          type="text"
-          placeholder="Title"
-          value={title}
-          onChange={(e) => setTitle(e.target.value)}
-        />
+        <label htmlFor="title">
+          Add New Book
+          <input
+            className="title"
+            id="title"
+            type="text"
+            placeholder="Title"
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
+          />
         </label>
         <input
           className="author"

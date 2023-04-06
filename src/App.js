@@ -2,6 +2,12 @@
 import React from 'react';
 import './App.css';
 // import Layout from './components/Layout';
+import {
+  createBrowserRouter,
+  Route,
+  createRoutesFromElements,
+  RouterProvider,
+} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Categories from './components/Categories';
@@ -11,12 +17,6 @@ import Categories from './components/Categories';
 //   createRoutesFromElements,
 //   RouterProvider,
 // } from 'react-router-dom';
-import {
-  createBrowserRouter,
-  Route,
-  createRoutesFromElements,
-  RouterProvider,
-} from 'react-router-dom';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -30,8 +30,8 @@ const router = createBrowserRouter(
 function App() {
   return (
     <>
-    <RouterProvider router={router} />
-    {/* <Home />
+      <RouterProvider router={router} />
+      {/* <Home />
     <Categories /> */}
     </>
   );
