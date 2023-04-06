@@ -10,6 +10,8 @@ const BookList = ({ books }) => (
           <li style={{ paddingLeft: '6rem' }}>
             <span style={{ fontWeight: '700', fontSize: '20px' }}> by </span>
             {book.author}
+            <br />
+            <button type="button" className="remove">Remove</button>
           </li>
         </ul>
       </div>

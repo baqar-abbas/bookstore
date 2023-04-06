@@ -94,3 +94,11 @@ main {
   border-radius: 5px;
   padding: 15px;
 }
+
+.remove {
+  background-color: #009fbd;
+  margin-left: 2rem;
+  width: 6rem;
+  height: 2rem;
+  color: beige;
+}

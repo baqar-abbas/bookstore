@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import BookList from './BookList';
 import BookInput from './BookInput';
-/* eslint-disable react/jsx-no-bind */
+
 export default function Books() {
   const [books, setBooks] = useState([
     {
