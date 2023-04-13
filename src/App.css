@@ -5,13 +5,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #fafafa;
   font-family: 'Montserrat', sans-serif;
 }
 
 .nav-bar {
-  background-color: #ffffff;
+  background-color: #fff;
   position: fixed;
   width: 100%;
   top: 0;
@@ -37,7 +38,7 @@ body {
   text-decoration: none;
   color: #121212;
   padding-left: 2rem;
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 0.813rem;
   font-weight: normal;
   font-stretch: normal;
@@ -48,11 +49,10 @@ body {
 
 .categories-link {
   text-decoration: none;
-  font-size: 1.5rem;
   color: #121212;
   padding-left: 2rem;
   opacity: 0.5;
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 0.813rem;
   font-weight: normal;
   font-stretch: normal;
@@ -63,7 +63,7 @@ body {
 
 .logo {
   color: #0290ff;
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 1.875rem;
   font-weight: 600;
   font-stretch: normal;
@@ -128,7 +128,7 @@ main {
   color: #121212;
   margin-top: 1rem;
   opacity: 0.5;
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 0.875rem;
   font-weight: bold;
   font-stretch: normal;
@@ -140,7 +140,7 @@ main {
 
 .book-title {
   color: #121212;
-  font-family: 'Roboto Slab',serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 1.375rem;
   font-weight: 700;
   font-stretch: normal;
@@ -151,7 +151,7 @@ main {
 
 .book-author {
   color: #4386bf;
-  font-family: 'Roboto Slab',serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -235,7 +235,7 @@ main {
   height: 3.2rem;
   border-radius: 3px;
   background-color: #0290ff;
-  color: #ffffff;
+  color: #fff;
 }
 
 .btn {
@@ -254,7 +254,7 @@ main {
   margin-right: 0.188rem;
   color: #4386bf;
   border: none;
-  font-family: 'Roboto Slab',serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 0.875rem;
   font-weight: 300;
   font-stretch: normal;
@@ -275,8 +275,8 @@ main {
 }
 
 .chapter-info {
-position: relative;
-bottom: 2.6rem;
+  position: relative;
+  bottom: 2.6rem;
 }
 
 .current-chap {
@@ -289,13 +289,13 @@ bottom: 2.6rem;
 }
 
 .chapterno {
-  margin-top: 0.7;
+  margin-top: 0.4rem;
   font-family: 'Roboto Slab', serif;
   font-size: 1rem;
   font-weight: 300;
   font-stretch: normal;
   letter-spacing: -0.4px;
-  color: 121212;
+  color: #121212;
   position: relative;
   left: 3.7rem;
 }
@@ -319,8 +319,8 @@ bottom: 2.6rem;
 }
 
 .add-new-h2 {
-  color: #888888;
-  font-family: Montserrat,sans-serif;
+  color: #888;
+  font-family: Montserrat, sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
@@ -330,6 +330,7 @@ bottom: 2.6rem;
   margin-left: 4rem;
   margin-bottom: 1rem;
 }
+
 select,
 input::placeholder {
   color: #c4c4c4;
