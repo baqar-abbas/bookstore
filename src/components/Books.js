@@ -5,7 +5,7 @@ export default function Books() {
   return (
     <div>
       <BookList />
-      <hr />
+      <hr className="hr" />
       <br />
       <BookInput />
     </div>
