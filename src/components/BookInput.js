@@ -30,33 +30,32 @@ const BookInput = () => {
 
   return (
     <div className="form-wrap">
+      <h2 className="add-new-h2">ADD NEW BOOK</h2>
       <form onSubmit={handleSubmit} className="form-container">
-        <label htmlFor="title">
-          Add New Book
-          <input
-            className="title"
-            id="title"
-            type="text"
-            placeholder="Title"
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
-          />
-        </label>
+        <input
+          className="title"
+          id="title"
+          type="text"
+          placeholder="Book title"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+          required
+        />
         <input
           className="author"
           type="text"
           placeholder="Author"
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
+          required
         />
-        <select id="category" name="category" value={category} onChange={(e) => setCategory(e.target.value)}>
-          <option value="">Please choose prefered category</option>
-          <option value="fiction">Fiction</option>
-          <option value="non-fiction">Non-Fiction</option>
-          <option value="mystery">Mystery</option>
-          <option value="sci-fi">Science Fiction</option>
+        <select id="category" name="category" value={category} placeholder="Category" onChange={(e) => setCategory(e.target.value)}>
+          <option value="Fiction">Fiction</option>
+          <option value="Non-Fiction">Non-Fiction</option>
+          <option value="Mystery">Mystery</option>
+          <option value="Science-Fiction">Science Fiction</option>
         </select>
-        <button type="submit" className="submit">Submit</button>
+        <button type="submit" className="submit">ADD BOOK</button>
       </form>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaUser } from 'react-icons/fa';
 import { NavLink, Outlet } from 'react-router-dom';
 
 function Navbar() {
@@ -8,9 +9,12 @@ function Navbar() {
         <nav className="nav-bar">
           <div className="logo">BOOKSTORE CMS</div>
           <ul>
-            <li><NavLink to="/">Books</NavLink></li>
-            <li><NavLink to="/Categories">Categories</NavLink></li>
+            <li><NavLink to="/" className="book-link">BOOKS</NavLink></li>
+            <li><NavLink to="/Categories" className="categories-link">CATEGORIES</NavLink></li>
           </ul>
+          <div className="oval">
+            <FaUser className="user-oval" />
+          </div>
         </nav>
       </header>
       <main>
