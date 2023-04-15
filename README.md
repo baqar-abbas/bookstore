@@ -48,7 +48,7 @@ React and redux
 
 ## 🚀 Live Demo <a name="live-demo"> </a>
 
-- [Live Demo](https://643b04dcdbdcc47a83059cd2--dazzling-puffpuff-44d9f7.netlify.app/)
+- [Live Demo](https://bookstoreactbaqar.netlify.app/)
 
 
 
